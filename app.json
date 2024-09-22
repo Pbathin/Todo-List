@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "Todo_list",
+    "slug": "Todo_list",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.athinpb.QuizApp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "40645815-eed4-4600-ac77-6b4812f93d0c",
+        "TWILIO_ACCOUNT_SID": "your_twilio_account_sid",
+      "TWILIO_AUTH_TOKEN": "your_twilio_auth_token",
+      "SENDGRID_API_KEY": "your_sendgrid_api_key",
+      "SENDGRID_SENDER_EMAIL": "your_sendgrid_sender_email",
+      "TWILIO_PHONE_NUMBER": "your_twilio_phone_number"
+      }
+    }
+  }
+}
